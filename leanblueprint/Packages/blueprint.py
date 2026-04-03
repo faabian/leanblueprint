@@ -592,7 +592,7 @@ def ProcessOptions(options, document):
                     if project_github and doc_link:
                         module_path = doc_link.split("#")[0].replace(".html", ".lean")
                         entry["github_url"] = (
-                            f"{project_github}/blob/summary/{module_path}"
+                            f"{project_github}/blob/main/{module_path}"
                         )
                     lean_entries.append(entry)
 
